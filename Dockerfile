@@ -2,6 +2,7 @@ FROM alpinelinux/docker-cli
 
 # Install CLI tools
 RUN apk --update add \
+        bash \
         git \
         ssh \
         openssh \
