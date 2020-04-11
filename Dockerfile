@@ -5,7 +5,6 @@ RUN apk --update add \
         curl \
         bash \
         git \
-        ssh \
         openssh \
         git-crypt \
         python \
