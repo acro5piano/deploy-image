@@ -2,6 +2,9 @@ FROM alpinelinux/docker-cli
 
 # Install CLI tools
 RUN apk --update add \
+        git \
+        ssh \
+        openssh \
         git-crypt \
         python \
         py-pip \
